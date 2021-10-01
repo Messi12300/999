@@ -135,7 +135,7 @@ async def start(bot, update):
         photo="https://telegra.ph/file/51b1eca426dab233a7796.jpg",
         caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
-        reply_to_message_id=update.message_id
+        reply_markup=InlineKeyboardMarkup
     )
 
 
